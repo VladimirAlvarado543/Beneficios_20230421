@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:blue;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.text{
+    display: flex;
+    justify-content:space-between;
+}
+main{
+    background-color: aquamarine;
+}
+.mf{
+    background-color: rgb(230, 197, 155);
+    display: flex;
+    justify-content: center;
+    font-family: "Winky Sans", sans-serif;
+    border-radius: 30px;
+}
+.mf h1{
+    font-family: "Winky Sans", sans-serif;
+}
+.container2{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color: rgba(155, 190, 179, 0.521);
+    border-radius: 100px;
+}
+.images1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.images1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w button{
+    border-radius: 20px;
+    background-color:rgb(0, 0, 156);
+    color: white;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+}
+.container3 { 
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #675050;
+    font-family: "Rock Salt", cursive;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1px;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    display: flex;
+    background-color: rgb(0, 162, 255);
+    justify-content: center;
+    padding: 100px;
+}
+.container3 :hover{
+    background-color: rgba(252, 248, 240, 0.756);
+    transform: scale(1.05);
+}
+.w button :hover{
+    background-color: rgba(252, 248, 240, 0.756);
+    transform: scale(1.05);
+}
